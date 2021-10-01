@@ -1,6 +1,7 @@
 import urllib.request 
 from bs4 import BeautifulSoup
 
+
 def format_text(unformatted):
     formatted = ''
     for c in unformatted.upper():
@@ -21,10 +22,6 @@ def get_feature_blocks(url: str):
 
 
 if __name__ == '__main__':
-    """
-    This was run as an ipython notebook
-    """
-
     # Put a project Gutenberg book link here
     url = 'https://www.gutenberg.org/cache/epub/16728/pg16728-images.html'
 
