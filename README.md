@@ -13,7 +13,7 @@ I have tried SVM regressor and a feedforward neural networks. FFNNs generally pr
 For features, I tried with just 26 letter frequencies first and then also tried bi-grams. Including bi-grams improved the accuracy.
 
 | Features | Algorithm | R squared score | Correlation Coeff |
----------------------------------------------------------------
+---------- | --------- | --------------- | ----------------- |
 | Frequencies | IoC | ? | 0.8815 |
 | Frequencies | SVM regressor | 0.8831 | 0.9405 |
 | Frequencies | FFNN | 0.8847 | 0.9410 |
